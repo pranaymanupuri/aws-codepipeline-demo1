@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My CI/CD Demo App</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin-top: 100px; background-color: #f0f8ff; }
+        h1 { color: #2c3e50; }
+        .version { color: #7f8c8d; font-size: 14px; margin-top: 20px; }
+        .env { color: #e74c3c; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <h1>🎉 Congratulations!</h1>
+    <p>Your CI/CD Pipeline is working successfully!</p>
+    <p>This is the <span class="env">TEST</span> environment.</p>
+    <div class="version">Version 1.0 - Built on <span id="date"></span></div>
+    <script>document.getElementById('date').textContent = new Date().toLocaleString();</script>
+</body>
+</html>
